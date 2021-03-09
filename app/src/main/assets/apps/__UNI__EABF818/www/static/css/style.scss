@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+.fade-enter-active, .fade-leave-active {
+    transition: all .3s ease;
+}
+
+.fade-leave-active {
+    display: none;
+}
+
+.fade-enter, .fade-leave-to {
+    opacity: 0;
+}
+
+.u-checkbox__label {
+    color: #fff !important;
+}

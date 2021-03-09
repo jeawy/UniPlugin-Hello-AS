@@ -1,0 +1,24 @@
+{
+  "nativePlugins": [
+    {
+      "plugins": [
+        {
+          "type": "module",
+          "name": "TestModule",
+          "class": "io.dcloud.uniplugin.TestModule"
+        }
+      ]
+    },
+
+    {
+      "hooksClass": "",
+      "plugins": [
+        {
+          "type": "module",
+          "name": "zjw-frontservice",
+          "class": "com.map2family.plugins.frontservice.FrontService_WXModule"
+        }
+      ]
+    }
+  ]
+}

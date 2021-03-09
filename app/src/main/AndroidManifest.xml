@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.map2family.cartrack">
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <!-- Barcode(二维码)  begin -->
+    <!--
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+     -->
+    <application
+        android:name="io.dcloud.application.DCloudApplication"
+        android:allowBackup="true"
+        android:allowClearUserData="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true">
+
+        <!-- 微信分享 配置begin -->
+        <!--
+        <meta-data android:name="WX_APPID" android:value="wxc9f9b3e253dc635f">
+        </meta-data>
+        <meta-data android:name="WX_SECRET" android:value="%微信开放平台申请应用的Secret%">
+        </meta-data>
+        <activity
+            android:name="com.map2family.cartrack.wxapi.WXEntryActivity"
+            android:label="@string/app_name"
+            android:exported="true"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="wxc9f9b3e253dc635f"/>
+            </intent-filter>
+        </activity>
+        -->
+        <!-- 微信分享 配置 end -->
+
+
+
+        <!-- 应用入口 -->
+        <activity
+            android:name="io.dcloud.PandoraEntry"
+            android:theme="@style/TranslucentTheme"
+            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|fontScale"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <data android:scheme="hbuilder"/>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter>
+                <data android:mimeType="image/*"/>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="dcloud_uninview_background"
+            android:value="true"/>
+
+        <activity
+            android:name="io.dcloud.PandoraEntryActivity"
+            android:launchMode="singleTask"
+            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|fontScale|keyboard"
+            android:hardwareAccelerated="true"
+            android:permission="com.miui.securitycenter.permission.AppPermissionsEditor"
+            android:screenOrientation="user"
+            android:theme="@style/DCloudTheme"
+            android:windowSoftInputMode="adjustResize">
+
+            <intent-filter>
+
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+
+                <category
+                    android:name="android.intent.category.BROWSABLE" />
+
+                <action
+                    android:name="android.intent.action.VIEW" />
+
+                <data
+                    android:scheme="h56131bcf" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

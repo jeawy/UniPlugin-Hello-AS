@@ -1,0 +1,14 @@
+@mixin wh($w, $h) {
+    width: $w;
+    height: $h;
+}
+
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@function rpx($value) {
+    @return $value * 1rpx;
+}

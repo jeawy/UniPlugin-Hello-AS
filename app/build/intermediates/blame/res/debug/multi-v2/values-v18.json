@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\projects\\html\\plugins\\Android-SDK@2.7.9.80210_20200528\\UniPlugin-Hello-AS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\28147\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\67273a2b5214805fb53c51f7195077ae\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}

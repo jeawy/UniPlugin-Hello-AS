@@ -1,0 +1,1045 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-109:12
+INJECTED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-109:12
+INJECTED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-109:12
+INJECTED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-109:12
+MERGED from [android-gif-drawable-release@1.2.17.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\android-gif-drawable-release@1.2.17.aar\25b246494d5449f1c1884b28f37b66ee\AndroidManifest.xml:2:1-10:12
+MERGED from [aps-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-release.aar\ff2dd339ce1378226ecb766153050cc6\AndroidManifest.xml:2:1-15:12
+MERGED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:2:1-281:12
+MERGED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:2:1-289:12
+MERGED from [miit_mdid_1.0.10.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\miit_mdid_1.0.10.aar\a43693a731f246ff733685daaa6443f7\AndroidManifest.xml:1:1-10:12
+MERGED from [share-weixin-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\share-weixin-release.aar\9d5b0e61548611ac781dfa099cc6aa70\AndroidManifest.xml:2:1-11:12
+MERGED from [uniapp-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\uniapp-release.aar\9068ce44db85d52567a6caaea9ff9e99\AndroidManifest.xml:20:1-37:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\342f3a91db73b4cbba43f6e3c743872b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\134f56fef7ae468a1f63173407daa5b7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\67273a2b5214805fb53c51f7195077ae\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\ec95c31749f1265fbe444d1071b71b35\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.13.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\fresco-1.13.0.aar\fe8f6c124da4b18ca8879fa33a5858f3\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-gif:1.13.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\animated-gif-1.13.0.aar\64ec623e3264d87c0eae5142f9055e3e\AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\glide-4.9.0.aar\57fbac1a06b410a0c7d6d7d81c31f2fb\AndroidManifest.xml:2:1-12:12
+MERGED from [:zjw-frontservice] C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\zjw-frontservice\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\305e107fcc6ff7173d2fb2b20c050c05\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\c64b5092fae4119c1b3ca30c179e359f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\9babcffad2f004b1449fb4864bc6c185\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\2f4456fdc56e50bb98c11fc059f78db8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\ab16e6ce84e0a12664e6a7cde92dc60b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\be9c3c0f4a68b9ed833df787f35bf83d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\279c884d92a1fae3e3f44d6678eb2c68\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.9.0.aar\a66b36d4d9eaefcfbb6f051d0ddb3281\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.fresco:animated-base:1.13.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\animated-base-1.13.0.aar\f577044944f88169eff0ae26cc1fa4d6\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-drawable:1.13.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\animated-drawable-1.13.0.aar\ea842a54115ebdbc34bbe599767b3e31\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.13.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\drawee-1.13.0.aar\6e5c540ecebe01fc915259127957d630\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:1.13.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\nativeimagefilters-1.13.0.aar\4666be1922021156eac9ca39c9d1c05c\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.13.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.13.0.aar\2b51bfb0affc7fc167585cdc864f50bd\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:1.13.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\nativeimagetranscoder-1.13.0.aar\1fce109bb2435176e4679f557cb11684\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.13.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.13.0.aar\8d5690f5b31ccf83fcb9a63aad3d3ed7\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.13.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\fbcore-1.13.0.aar\b9ae48fab46649011982ff08c0723f7d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\6ccafa6f2cdbf6df013828f308c4f845\AndroidManifest.xml:2:1-13:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\9a90b0432936022813d0184699976e46\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\78e4cb21f0af2b7a97be2b2a490316d8\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\2b4ef0d94f5dc69dfaed497428280c51\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\1da3bde234586c51b995b7ad48b2ddb1\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-109:12
+INJECTED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-109:12
+INJECTED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-109:12
+	package
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
+		INJECTED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-109:12
+		INJECTED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-109:12
+		INJECTED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:11-69
+supports-screens
+ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:5:5-10:39
+MERGED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:9:5-14:39
+MERGED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:9:5-14:39
+	android:largeScreens
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:7:9-36
+	android:smallScreens
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:10:9-36
+	android:normalScreens
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:8:9-37
+	android:resizeable
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:9:9-34
+	android:anyDensity
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:6:9-34
+application
+ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:24:5-107:19
+MERGED from [aps-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-release.aar\ff2dd339ce1378226ecb766153050cc6\AndroidManifest.xml:9:5-13:19
+MERGED from [aps-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-release.aar\ff2dd339ce1378226ecb766153050cc6\AndroidManifest.xml:9:5-13:19
+MERGED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:54:5-279:19
+MERGED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:54:5-279:19
+MERGED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:156:5-287:19
+MERGED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:156:5-287:19
+MERGED from [share-weixin-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\share-weixin-release.aar\9d5b0e61548611ac781dfa099cc6aa70\AndroidManifest.xml:9:5-20
+MERGED from [share-weixin-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\share-weixin-release.aar\9d5b0e61548611ac781dfa099cc6aa70\AndroidManifest.xml:9:5-20
+MERGED from [uniapp-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\uniapp-release.aar\9068ce44db85d52567a6caaea9ff9e99\AndroidManifest.xml:29:5-35:19
+MERGED from [uniapp-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\uniapp-release.aar\9068ce44db85d52567a6caaea9ff9e99\AndroidManifest.xml:29:5-35:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\glide-4.9.0.aar\57fbac1a06b410a0c7d6d7d81c31f2fb\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\glide-4.9.0.aar\57fbac1a06b410a0c7d6d7d81c31f2fb\AndroidManifest.xml:10:5-20
+MERGED from [:zjw-frontservice] C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\zjw-frontservice\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:15:5-20:19
+MERGED from [:zjw-frontservice] C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\zjw-frontservice\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:15:5-20:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.9.0.aar\a66b36d4d9eaefcfbb6f051d0ddb3281\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.9.0.aar\a66b36d4d9eaefcfbb6f051d0ddb3281\AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\6ccafa6f2cdbf6df013828f308c4f845\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\6ccafa6f2cdbf6df013828f308c4f845\AndroidManifest.xml:11:5-20
+	android:supportsRtl
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:31:9-35
+	android:label
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:29:9-41
+	android:allowClearUserData
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:27:9-42
+	android:largeHeap
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:30:9-33
+	android:icon
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:28:9-38
+	android:allowBackup
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:26:9-35
+	android:usesCleartextTraffic
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:54:18-53
+	android:name
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:25:9-63
+activity#io.dcloud.PandoraEntry
+ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:56:9-78:20
+	android:hardwareAccelerated
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:60:13-47
+	android:windowSoftInputMode
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:61:13-55
+	android:configChanges
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:59:13-92
+	android:theme
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:58:13-52
+	android:name
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:57:13-50
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:hbuilder
+ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:62:13-68:29
+data
+ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:63:17-50
+	android:scheme
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:63:23-48
+	android:mimeType
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:70:23-49
+action#android.intent.action.VIEW
+ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:64:17-68
+	android:name
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:64:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:66:17-75
+	android:name
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:66:27-73
+category#android.intent.category.BROWSABLE
+ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:67:17-77
+	android:name
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:67:27-75
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:image/*
+ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:69:13-73:29
+action#android.intent.action.SEND
+ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:71:17-68
+	android:name
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:71:25-66
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:74:13-77:29
+action#android.intent.action.MAIN
+ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:75:17-68
+	android:name
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:75:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:76:17-76
+	android:name
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:76:27-74
+meta-data#dcloud_uninview_background
+ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:79:9-80:35
+	android:value
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:80:13-33
+	android:name
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:79:20-61
+activity#io.dcloud.PandoraEntryActivity
+ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:82:9-106:20
+	android:screenOrientation
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:88:13-45
+	android:launchMode
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:84:13-44
+	android:hardwareAccelerated
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:86:13-47
+	android:windowSoftInputMode
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:90:13-55
+	android:permission
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:87:13-89
+	android:configChanges
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:85:13-101
+	android:theme
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:89:13-47
+	android:name
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:83:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:h56131bcf
+ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:92:13-105:29
+uses-sdk
+INJECTED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
+INJECTED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
+MERGED from [android-gif-drawable-release@1.2.17.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\android-gif-drawable-release@1.2.17.aar\25b246494d5449f1c1884b28f37b66ee\AndroidManifest.xml:6:5-8:41
+MERGED from [android-gif-drawable-release@1.2.17.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\android-gif-drawable-release@1.2.17.aar\25b246494d5449f1c1884b28f37b66ee\AndroidManifest.xml:6:5-8:41
+MERGED from [aps-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-release.aar\ff2dd339ce1378226ecb766153050cc6\AndroidManifest.xml:7:5-44
+MERGED from [aps-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-release.aar\ff2dd339ce1378226ecb766153050cc6\AndroidManifest.xml:7:5-44
+MERGED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:7:5-44
+MERGED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:7:5-44
+MERGED from [share-weixin-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\share-weixin-release.aar\9d5b0e61548611ac781dfa099cc6aa70\AndroidManifest.xml:7:5-44
+MERGED from [share-weixin-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\share-weixin-release.aar\9d5b0e61548611ac781dfa099cc6aa70\AndroidManifest.xml:7:5-44
+MERGED from [uniapp-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\uniapp-release.aar\9068ce44db85d52567a6caaea9ff9e99\AndroidManifest.xml:25:5-27:41
+MERGED from [uniapp-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\uniapp-release.aar\9068ce44db85d52567a6caaea9ff9e99\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\342f3a91db73b4cbba43f6e3c743872b\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\342f3a91db73b4cbba43f6e3c743872b\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\134f56fef7ae468a1f63173407daa5b7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\134f56fef7ae468a1f63173407daa5b7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\67273a2b5214805fb53c51f7195077ae\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\67273a2b5214805fb53c51f7195077ae\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\ec95c31749f1265fbe444d1071b71b35\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\ec95c31749f1265fbe444d1071b71b35\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.13.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\fresco-1.13.0.aar\fe8f6c124da4b18ca8879fa33a5858f3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.13.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\fresco-1.13.0.aar\fe8f6c124da4b18ca8879fa33a5858f3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-gif:1.13.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\animated-gif-1.13.0.aar\64ec623e3264d87c0eae5142f9055e3e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-gif:1.13.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\animated-gif-1.13.0.aar\64ec623e3264d87c0eae5142f9055e3e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\glide-4.9.0.aar\57fbac1a06b410a0c7d6d7d81c31f2fb\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\glide-4.9.0.aar\57fbac1a06b410a0c7d6d7d81c31f2fb\AndroidManifest.xml:6:5-8:41
+MERGED from [:zjw-frontservice] C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\zjw-frontservice\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:zjw-frontservice] C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\zjw-frontservice\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\305e107fcc6ff7173d2fb2b20c050c05\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\305e107fcc6ff7173d2fb2b20c050c05\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\c64b5092fae4119c1b3ca30c179e359f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\c64b5092fae4119c1b3ca30c179e359f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\9babcffad2f004b1449fb4864bc6c185\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\9babcffad2f004b1449fb4864bc6c185\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\2f4456fdc56e50bb98c11fc059f78db8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\2f4456fdc56e50bb98c11fc059f78db8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\ab16e6ce84e0a12664e6a7cde92dc60b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\ab16e6ce84e0a12664e6a7cde92dc60b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\be9c3c0f4a68b9ed833df787f35bf83d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\be9c3c0f4a68b9ed833df787f35bf83d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\279c884d92a1fae3e3f44d6678eb2c68\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\279c884d92a1fae3e3f44d6678eb2c68\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.9.0.aar\a66b36d4d9eaefcfbb6f051d0ddb3281\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.9.0.aar\a66b36d4d9eaefcfbb6f051d0ddb3281\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-base:1.13.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\animated-base-1.13.0.aar\f577044944f88169eff0ae26cc1fa4d6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-base:1.13.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\animated-base-1.13.0.aar\f577044944f88169eff0ae26cc1fa4d6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-drawable:1.13.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\animated-drawable-1.13.0.aar\ea842a54115ebdbc34bbe599767b3e31\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-drawable:1.13.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\animated-drawable-1.13.0.aar\ea842a54115ebdbc34bbe599767b3e31\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.13.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\drawee-1.13.0.aar\6e5c540ecebe01fc915259127957d630\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.13.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\drawee-1.13.0.aar\6e5c540ecebe01fc915259127957d630\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:1.13.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\nativeimagefilters-1.13.0.aar\4666be1922021156eac9ca39c9d1c05c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:1.13.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\nativeimagefilters-1.13.0.aar\4666be1922021156eac9ca39c9d1c05c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.13.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.13.0.aar\2b51bfb0affc7fc167585cdc864f50bd\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.13.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.13.0.aar\2b51bfb0affc7fc167585cdc864f50bd\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:1.13.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\nativeimagetranscoder-1.13.0.aar\1fce109bb2435176e4679f557cb11684\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:1.13.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\nativeimagetranscoder-1.13.0.aar\1fce109bb2435176e4679f557cb11684\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.13.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.13.0.aar\8d5690f5b31ccf83fcb9a63aad3d3ed7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.13.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.13.0.aar\8d5690f5b31ccf83fcb9a63aad3d3ed7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.13.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\fbcore-1.13.0.aar\b9ae48fab46649011982ff08c0723f7d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.13.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\fbcore-1.13.0.aar\b9ae48fab46649011982ff08c0723f7d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\6ccafa6f2cdbf6df013828f308c4f845\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\6ccafa6f2cdbf6df013828f308c4f845\AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\9a90b0432936022813d0184699976e46\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\9a90b0432936022813d0184699976e46\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\78e4cb21f0af2b7a97be2b2a490316d8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\78e4cb21f0af2b7a97be2b2a490316d8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\2b4ef0d94f5dc69dfaed497428280c51\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\2b4ef0d94f5dc69dfaed497428280c51\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\1da3bde234586c51b995b7ad48b2ddb1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\1da3bde234586c51b995b7ad48b2ddb1\AndroidManifest.xml:20:5-44
+INJECTED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
+INJECTED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
+		INJECTED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
+		ADDED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
+		INJECTED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml
+service#io.dcloud.feature.aps.ApsActionService
+ADDED from [aps-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-release.aar\ff2dd339ce1378226ecb766153050cc6\AndroidManifest.xml:10:9-12:40
+	android:exported
+		ADDED from [aps-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-release.aar\ff2dd339ce1378226ecb766153050cc6\AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [aps-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-release.aar\ff2dd339ce1378226ecb766153050cc6\AndroidManifest.xml:11:13-66
+uses-permission#getui.permission.GetuiService.${applicationId}
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:8:5-86
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:8:22-83
+uses-permission#getui.permission.GetuiService.com.map2family.cartrack
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:8:5-86
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:8:22-83
+permission#getui.permission.GetuiService.${applicationId}
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:10:5-13:18
+	android:protectionLevel
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:12:9-41
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:11:9-70
+permission#getui.permission.GetuiService.com.map2family.cartrack
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:10:5-13:18
+	android:protectionLevel
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:12:9-41
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:11:9-70
+uses-permission#android.permission.BROADCAST_PACKAGE_ADDED
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:15:5-82
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:15:22-79
+uses-permission#android.permission.BROADCAST_PACKAGE_CHANGED
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:16:5-84
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:16:22-81
+uses-permission#android.permission.BROADCAST_PACKAGE_INSTALL
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:17:5-84
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:17:22-81
+uses-permission#android.permission.BROADCAST_PACKAGE_REPLACED
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:18:5-85
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:18:22-82
+uses-permission#android.permission.RESTART_PACKAGES
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:19:5-75
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:19:22-72
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:20:22-76
+uses-permission#${applicationId}.permission.MIPUSH_RECEIVE
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:21:5-82
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:21:22-79
+uses-permission#com.map2family.cartrack.permission.MIPUSH_RECEIVE
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:21:5-82
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:21:22-79
+permission#${applicationId}.permission.MIPUSH_RECEIVE
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:23:5-25:55
+	android:protectionLevel
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:25:9-52
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:24:9-66
+permission#com.map2family.cartrack.permission.MIPUSH_RECEIVE
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:23:5-25:55
+	android:protectionLevel
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:25:9-52
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:24:9-66
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:28:5-73
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:28:22-70
+uses-permission#com.meizu.flyme.push.permission.RECEIVE
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:29:5-79
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:29:22-76
+uses-permission#com.meizu.c2dm.permission.RECEIVE
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:30:5-73
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:30:22-70
+uses-permission#${applicationId}.push.permission.MESSAGE
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:31:5-80
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:31:22-77
+uses-permission#com.map2family.cartrack.push.permission.MESSAGE
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:31:5-80
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:31:22-77
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:32:22-76
+uses-permission#com.map2family.cartrack.permission.C2D_MESSAGE
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:32:22-76
+permission#${applicationId}.push.permission.MESSAGE
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:34:5-36:47
+	android:protectionLevel
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:36:9-44
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:35:9-64
+permission#com.map2family.cartrack.push.permission.MESSAGE
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:34:5-36:47
+	android:protectionLevel
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:36:9-44
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:35:9-64
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:37:5-39:47
+	android:protectionLevel
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:39:9-44
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:38:9-63
+permission#com.map2family.cartrack.permission.C2D_MESSAGE
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:37:5-39:47
+	android:protectionLevel
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:39:9-44
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:38:9-63
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:43:5-83
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:43:22-80
+permission#${applicationId}.permission.PROCESS_PUSH_MSG
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:45:5-47:55
+	android:protectionLevel
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:47:9-52
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:46:9-68
+permission#com.map2family.cartrack.permission.PROCESS_PUSH_MSG
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:45:5-47:55
+	android:protectionLevel
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:47:9-52
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:46:9-68
+uses-permission#${applicationId}.permission.PROCESS_PUSH_MSG
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:49:5-84
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:49:22-81
+uses-permission#com.map2family.cartrack.permission.PROCESS_PUSH_MSG
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:49:5-84
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:49:22-81
+uses-permission#com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:52:5-86
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:52:22-83
+service#io.dcloud.feature.unipush.GTNormalIntentService
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:57:9-83
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:57:18-80
+service#com.igexin.sdk.PushService
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:60:9-68:19
+	android:process
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:64:13-43
+	android:label
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:63:13-47
+	android:exported
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:62:13-36
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:61:13-54
+intent-filter#action:name:com.igexin.sdk.action.service.message
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:65:13-67:29
+action#com.igexin.sdk.action.service.message
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:66:17-80
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:66:25-77
+receiver#io.dcloud.feature.unipush.GTNotificationReceiver
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:72:9-80:20
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:72:19-82
+intent-filter#action:name:${apk.applicationId}.__CLEAR_NOTIFICATION+action:name:${apk.applicationId}.__CLILK_NOTIFICATION+action:name:${apk.applicationId}.__CREATE_NOTIFICATION+action:name:${apk.applicationId}.__REMOVE_NOTIFICATION+action:name:android.intent.action.BOOT_COMPLETED
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:73:13-79:29
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:com.map2family.cartrack.__CLEAR_NOTIFICATION+action:name:com.map2family.cartrack.__CLILK_NOTIFICATION+action:name:com.map2family.cartrack.__CREATE_NOTIFICATION+action:name:com.map2family.cartrack.__REMOVE_NOTIFICATION
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:73:13-79:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:74:17-79
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:74:25-76
+action#${apk.applicationId}.__CREATE_NOTIFICATION
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:75:17-85
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:75:25-82
+action#com.map2family.cartrack.__CREATE_NOTIFICATION
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:75:17-85
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:75:25-82
+action#${apk.applicationId}.__REMOVE_NOTIFICATION
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:76:17-85
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:76:25-82
+action#com.map2family.cartrack.__REMOVE_NOTIFICATION
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:76:17-85
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:76:25-82
+action#${apk.applicationId}.__CLEAR_NOTIFICATION
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:77:17-84
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:77:25-81
+action#com.map2family.cartrack.__CLEAR_NOTIFICATION
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:77:17-84
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:77:25-81
+action#${apk.applicationId}.__CLILK_NOTIFICATION
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:78:17-84
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:78:25-81
+action#com.map2family.cartrack.__CLILK_NOTIFICATION
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:78:17-84
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:78:25-81
+receiver#com.igexin.sdk.PushReceiver
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:81:9-92:20
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:81:19-61
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED+action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MEDIA_MOUNTED+action:name:android.intent.action.USER_PRESENT+action:name:android.net.conn.CONNECTIVITY_CHANGE+action:name:com.igexin.sdk.action.refreshls
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:82:13-91:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:84:17-79
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:84:25-76
+action#android.intent.action.USER_PRESENT
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:85:25-74
+action#com.igexin.sdk.action.refreshls
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:86:17-74
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:86:25-71
+action#android.intent.action.MEDIA_MOUNTED
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:88:17-78
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:88:25-75
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:89:17-87
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:89:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:90:17-90
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:90:25-87
+activity#com.igexin.sdk.PushActivity
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:94:9-100:75
+	android:process
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:98:13-43
+	android:excludeFromRecents
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:96:13-46
+	android:exported
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:97:13-37
+	android:theme
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:100:13-72
+	android:taskAffinity
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:99:13-67
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:95:13-55
+activity#com.igexin.sdk.GActivity
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:101:9-107:75
+	android:process
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:105:13-43
+	android:excludeFromRecents
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:103:13-46
+	android:exported
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:104:13-36
+	android:theme
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:107:13-72
+	android:taskAffinity
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:106:13-67
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:102:13-52
+service#com.meizu.cloud.pushsdk.NotificationService
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:110:9-113:46
+	android:process
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:113:13-43
+	android:exported
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:112:13-36
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:111:13-71
+receiver#com.meizu.cloud.pushsdk.SystemReceiver
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:115:9-123:20
+	android:process
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:117:13-43
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:116:13-66
+intent-filter#action:name:com.meizu.cloud.pushservice.action.PUSH_SERVICE_START+category:name:android.intent.category.DEFAULT
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:118:13-122:29
+action#com.meizu.cloud.pushservice.action.PUSH_SERVICE_START
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:119:17-96
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:119:25-93
+receiver#com.igexin.sdk.FlymePushReceiver
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:124:9-141:20
+	android:process
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:126:13-43
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:125:13-60
+intent-filter#action:name:com.meizu.c2dm.intent.RECEIVE+action:name:com.meizu.c2dm.intent.REGISTRATION+action:name:com.meizu.flyme.push.intent.MESSAGE+action:name:com.meizu.flyme.push.intent.REGISTER.FEEDBACK+action:name:com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK+category:name:${applicationId}
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:127:13-140:29
+intent-filter#action:name:com.meizu.c2dm.intent.RECEIVE+action:name:com.meizu.c2dm.intent.REGISTRATION+action:name:com.meizu.flyme.push.intent.MESSAGE+action:name:com.meizu.flyme.push.intent.REGISTER.FEEDBACK+action:name:com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK+category:name:com.map2family.cartrack
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:127:13-140:29
+action#com.meizu.flyme.push.intent.MESSAGE
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:130:17-78
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:130:25-75
+action#com.meizu.flyme.push.intent.REGISTER.FEEDBACK
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:132:17-88
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:132:25-85
+action#com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:134:17-90
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:134:25-87
+action#com.meizu.c2dm.intent.REGISTRATION
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:136:17-77
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:136:25-74
+action#com.meizu.c2dm.intent.RECEIVE
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:137:17-72
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:137:25-69
+category#${applicationId}
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:139:17-61
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:139:27-58
+category#com.map2family.cartrack
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:139:17-61
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:139:27-58
+service#com.xiaomi.mipush.sdk.PushMessageHandler
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:144:9-148:46
+	android:process
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:148:13-43
+	android:enabled
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:146:13-35
+	android:exported
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:147:13-36
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:145:13-68
+service#com.xiaomi.mipush.sdk.MessageHandleService
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:149:9-152:46
+	android:process
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:152:13-43
+	android:enabled
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:151:13-35
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:150:13-70
+receiver#com.igexin.sdk.MiuiPushReceiver
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:154:9-167:20
+	android:process
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:157:13-43
+	android:exported
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:156:13-36
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:155:13-59
+intent-filter#action:name:com.xiaomi.mipush.RECEIVE_MESSAGE
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:158:13-160:29
+action#com.xiaomi.mipush.RECEIVE_MESSAGE
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:159:17-76
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:159:25-73
+intent-filter#action:name:com.xiaomi.mipush.MESSAGE_ARRIVED
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:161:13-163:29
+action#com.xiaomi.mipush.MESSAGE_ARRIVED
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:162:17-76
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:162:25-73
+intent-filter#action:name:com.xiaomi.mipush.ERROR
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:164:13-166:29
+action#com.xiaomi.mipush.ERROR
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:165:17-66
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:165:25-63
+service#com.igexin.sdk.OppoPushService
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:170:9-176:19
+	android:process
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:172:13-43
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:171:13-58
+intent-filter#action:name:com.coloros.mcs.action.RECEIVE_MCS_MESSAGE
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:173:13-175:29
+action#com.coloros.mcs.action.RECEIVE_MCS_MESSAGE
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:174:17-85
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:174:25-82
+activity#com.huawei.android.hms.agent.common.HMSAgentActivity
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:179:9-190:20
+	android:process
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:185:13-43
+	android:excludeFromRecents
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:182:13-46
+	android:hardwareAccelerated
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:184:13-47
+	android:exported
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:183:13-37
+	android:configChanges
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:181:13-92
+	android:theme
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:186:13-61
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:180:13-80
+meta-data#hwc-theme
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:187:13-189:77
+	android:value
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:189:17-74
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:188:17-41
+activity#com.huawei.hms.activity.BridgeActivity
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:191:9-202:20
+	android:process
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:197:13-43
+	android:excludeFromRecents
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:194:13-46
+	android:hardwareAccelerated
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:196:13-47
+	android:exported
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:195:13-37
+	android:configChanges
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:193:13-92
+	android:theme
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:198:13-61
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:192:13-66
+provider#com.huawei.hms.update.provider.UpdateProvider
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:204:9-210:20
+	android:process
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:209:13-43
+	android:grantUriPermissions
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:208:13-47
+	android:authorities
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:206:13-71
+	android:exported
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:207:13-37
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:205:13-73
+receiver#com.igexin.sdk.HmsPushReceiver
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:212:9-225:20
+	android:process
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:215:13-43
+	android:permission
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:214:13-78
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:213:13-58
+intent-filter#action:name:com.huawei.android.push.intent.RECEIVE+action:name:com.huawei.android.push.intent.REGISTRATION+action:name:com.huawei.intent.action.PUSH_DELAY_NOTIFY
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:216:13-224:29
+action#com.huawei.android.push.intent.REGISTRATION
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:219:17-86
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:219:25-83
+action#com.huawei.android.push.intent.RECEIVE
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:221:17-81
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:221:25-78
+action#com.huawei.intent.action.PUSH_DELAY_NOTIFY
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:223:17-85
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:223:25-82
+receiver#com.igexin.sdk.HmsPushSubReceiver
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:226:9-236:20
+	android:process
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:228:13-43
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:227:13-61
+intent-filter#action:name:com.huawei.android.push.intent.CLICK+action:name:com.huawei.intent.action.PUSH_STATE
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:229:13-235:29
+action#com.huawei.android.push.intent.CLICK
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:232:17-79
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:232:25-76
+action#com.huawei.intent.action.PUSH_STATE
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:234:17-78
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:234:25-75
+service#com.huawei.hms.support.api.push.service.HmsMsgService
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:238:9-247:19
+	android:process
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:242:13-43
+	android:enabled
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:240:13-35
+	android:exported
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:241:13-36
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:239:13-81
+intent-filter#action:name:com.huawei.push.msg.NOTIFY_MSG+action:name:com.huawei.push.msg.PASSBY_MSG
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:243:13-246:29
+action#com.huawei.push.msg.NOTIFY_MSG
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:244:17-73
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:244:25-70
+action#com.huawei.push.msg.PASSBY_MSG
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:245:17-73
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:245:25-70
+service#com.vivo.push.sdk.service.CommandClientService
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:250:9-253:46
+	android:process
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:253:13-43
+	android:exported
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:252:13-36
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:251:13-74
+activity#com.vivo.push.sdk.LinkProxyClientActivity
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:255:9-260:75
+	android:screenOrientation
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:259:13-49
+	android:process
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:258:13-43
+	android:exported
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:257:13-36
+	android:theme
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:260:13-72
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:256:13-69
+receiver#com.igexin.sdk.VivoPushMessageReceiver
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:262:9-268:20
+	android:process
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:264:13-43
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:263:13-66
+intent-filter#action:name:com.vivo.pushclient.action.RECEIVE
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:265:13-267:29
+action#com.vivo.pushclient.action.RECEIVE
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:266:17-77
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:266:25-74
+meta-data#PUSH_APPID
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:270:9-272:53
+	android:value
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:272:13-50
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:271:13-38
+meta-data#PUSH_APPKEY
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:273:9-275:54
+	android:value
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:275:13-51
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:274:13-39
+meta-data#PUSH_APPSECRET
+ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:276:9-278:57
+	android:value
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:278:13-54
+	android:name
+		ADDED from [aps-unipush-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\aps-unipush-release.aar\ffe88bddee402084f0390a5582151ee1\AndroidManifest.xml:277:13-42
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-109:12 reason: io.dcloud.feature.unipush has a targetSdkVersion < 4
+MERGED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:16:5-81
+MERGED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:16:5-81
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-109:12 reason: io.dcloud.feature.unipush has a targetSdkVersion < 4
+MERGED from [miit_mdid_1.0.10.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\miit_mdid_1.0.10.aar\a43693a731f246ff733685daaa6443f7\AndroidManifest.xml:5:5-75
+MERGED from [miit_mdid_1.0.10.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\miit_mdid_1.0.10.aar\a43693a731f246ff733685daaa6443f7\AndroidManifest.xml:5:5-75
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\app\src\main\AndroidManifest.xml:2:1-109:12 reason: io.dcloud.feature.unipush requested WRITE_EXTERNAL_STORAGE
+uses-permission#android.permission.INTERNET
+ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:17:5-67
+MERGED from [miit_mdid_1.0.10.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\miit_mdid_1.0.10.aar\a43693a731f246ff733685daaa6443f7\AndroidManifest.xml:6:5-67
+MERGED from [miit_mdid_1.0.10.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\miit_mdid_1.0.10.aar\a43693a731f246ff733685daaa6443f7\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:17:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:18:5-79
+MERGED from [miit_mdid_1.0.10.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\miit_mdid_1.0.10.aar\a43693a731f246ff733685daaa6443f7\AndroidManifest.xml:4:5-79
+MERGED from [miit_mdid_1.0.10.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\miit_mdid_1.0.10.aar\a43693a731f246ff733685daaa6443f7\AndroidManifest.xml:4:5-79
+	android:name
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:18:22-76
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:24:5-91
+	android:name
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:24:22-88
+service#io.dcloud.common.adapter.io.MiniServerService
+ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:160:9-162:40
+	android:exported
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:162:13-37
+	android:name
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:161:13-73
+receiver#io.dcloud.common.adapter.io.PushReceiver
+ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:164:9-168:20
+	android:name
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:164:19-74
+intent-filter#action:name:dcloud.push.broswer
+ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:165:13-167:29
+action#dcloud.push.broswer
+ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:166:17-62
+	android:name
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:166:25-59
+activity#io.dcloud.imagepick.CustomGalleryActivity
+ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:170:9-173:40
+	android:noHistory
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:173:13-37
+	android:exported
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:172:13-37
+	android:name
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:171:13-69
+activity#io.dcloud.feature.nativeObj.photoview.PhotoActivity
+ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:174:9-177:58
+	android:noHistory
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:176:13-38
+	android:theme
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:177:13-55
+	android:name
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:175:13-79
+activity#io.dcloud.appstream.StreamAppMainActivity
+ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:178:9-199:20
+	android:screenOrientation
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:183:13-49
+	android:launchMode
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:182:13-44
+	android:windowSoftInputMode
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:186:13-73
+	android:exported
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:181:13-36
+	android:configChanges
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:180:13-82
+	android:theme
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:185:13-70
+	android:taskAffinity
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:184:13-41
+	android:name
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:179:13-69
+intent-filter#action:name:android.intent.action.MAIN
+ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:187:13-189:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:streamapp+data:scheme:streamappmain
+ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:190:13-198:29
+activity#io.dcloud.WebAppActivity
+ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:200:9-210:58
+	android:screenOrientation
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:207:13-49
+	android:label
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:205:13-46
+	android:launchMode
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:206:13-44
+	android:hardwareAccelerated
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:203:13-47
+	android:windowSoftInputMode
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:210:13-55
+	android:configChanges
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:202:13-92
+	android:icon
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:204:13-51
+	android:theme
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:209:13-47
+	android:taskAffinity
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:208:13-43
+	android:name
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:201:13-52
+service#io.dcloud.streamdownload.DownloadService
+ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:212:9-216:19
+	android:name
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:212:18-73
+intent-filter#action:name:com.qihoo.life.plugin.streamapp.ACTION_PUSH_TO_PLUGIN
+ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:213:13-215:29
+action#com.qihoo.life.plugin.streamapp.ACTION_PUSH_TO_PLUGIN
+ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:214:17-96
+	android:name
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:214:25-93
+service#io.dcloud.multiprocess.service.MultiProcessService
+ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:217:9-86
+	android:name
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:217:18-83
+activity#io.dcloud.multiprocess.activity.WebAppActivity1
+ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:219:9-230:58
+	android:screenOrientation
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:227:13-49
+	android:process
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:226:13-61
+	android:label
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:224:13-46
+	android:launchMode
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:225:13-44
+	android:hardwareAccelerated
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:222:13-47
+	android:windowSoftInputMode
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:230:13-55
+	android:configChanges
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:221:13-82
+	android:icon
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:223:13-51
+	android:theme
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:229:13-47
+	android:taskAffinity
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:228:13-44
+	android:name
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:220:13-75
+activity#io.dcloud.appstream.OpenStreamAppTransferActivity
+ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:231:9-237:20
+	android:screenOrientation
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:234:13-49
+	android:windowSoftInputMode
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:236:13-73
+	android:configChanges
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:233:13-82
+	android:theme
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:235:13-70
+	android:name
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:232:13-77
+meta-data#MultiProcessCount
+ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:239:9-241:33
+	android:value
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:241:13-30
+	android:name
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:240:13-45
+activity#io.dcloud.ProcessMediator
+ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:243:9-249:75
+	android:label
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:247:13-45
+	android:excludeFromRecents
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:245:13-46
+	android:launchMode
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:248:13-43
+	android:exported
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:246:13-36
+	android:theme
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:249:13-72
+	android:name
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:244:13-53
+activity#io.dcloud.WebviewActivity
+ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:250:9-255:20
+	android:screenOrientation
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:252:13-49
+	android:windowSoftInputMode
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:254:13-52
+	android:theme
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:253:13-51
+	android:name
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:251:13-53
+receiver#io.dcloud.common.adapter.io.DownloadReceiver
+ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:257:9-266:20
+	android:name
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:257:19-78
+intent-filter#action:name:android.intent.action.DOWNLOAD_COMPLETE
+ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:258:13-260:29
+action#android.intent.action.DOWNLOAD_COMPLETE
+ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:259:17-82
+	android:name
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:259:25-79
+intent-filter#action:name:android.intent.action.PACKAGE_ADDED+data:scheme:package
+ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:261:13-265:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:262:17-78
+	android:name
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:262:25-75
+meta-data#android.max_aspect
+ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:284:9-286:35
+	android:value
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:286:13-32
+	android:name
+		ADDED from [lib.5plus.base-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\lib.5plus.base-release.aar\07ee9707f249f1f3eb31c05e69bae761\AndroidManifest.xml:285:13-46
+uses-permission#com.asus.msa.SupplementaryDID.ACCESS
+ADDED from [miit_mdid_1.0.10.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\miit_mdid_1.0.10.aar\a43693a731f246ff733685daaa6443f7\AndroidManifest.xml:8:5-76
+	android:name
+		ADDED from [miit_mdid_1.0.10.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\miit_mdid_1.0.10.aar\a43693a731f246ff733685daaa6443f7\AndroidManifest.xml:8:22-73
+receiver#com.taobao.weex.WXGlobalEventReceiver
+ADDED from [uniapp-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\uniapp-release.aar\9068ce44db85d52567a6caaea9ff9e99\AndroidManifest.xml:30:9-34:20
+	android:enabled
+		ADDED from [uniapp-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\uniapp-release.aar\9068ce44db85d52567a6caaea9ff9e99\AndroidManifest.xml:32:13-35
+	android:exported
+		ADDED from [uniapp-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\uniapp-release.aar\9068ce44db85d52567a6caaea9ff9e99\AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from [uniapp-release.aar] C:\Users\28147\.gradle\caches\transforms-1\files-1.1\uniapp-release.aar\9068ce44db85d52567a6caaea9ff9e99\AndroidManifest.xml:31:13-65
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:zjw-frontservice] C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\zjw-frontservice\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-77
+	android:name
+		ADDED from [:zjw-frontservice] C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\zjw-frontservice\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:22-74
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:zjw-frontservice] C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\zjw-frontservice\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from [:zjw-frontservice] C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\zjw-frontservice\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:12:22-65
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from [:zjw-frontservice] C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\zjw-frontservice\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:13:5-95
+	android:name
+		ADDED from [:zjw-frontservice] C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\zjw-frontservice\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:13:22-92
+service#com.map2family.plugins.frontservice.MyForeGroundService
+ADDED from [:zjw-frontservice] C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\zjw-frontservice\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:16:9-19:39
+	android:enabled
+		ADDED from [:zjw-frontservice] C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\zjw-frontservice\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:18:13-35
+	android:exported
+		ADDED from [:zjw-frontservice] C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\zjw-frontservice\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:19:13-36
+	android:name
+		ADDED from [:zjw-frontservice] C:\projects\html\plugins\Android-SDK@2.7.9.80210_20200528\UniPlugin-Hello-AS\zjw-frontservice\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:17:13-83

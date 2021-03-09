@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.map2family.cartrack"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="26" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <!-- 自定义权限 -->
+    <uses-permission android:name="getui.permission.GetuiService.com.map2family.cartrack" />
+
+    <permission
+        android:name="getui.permission.GetuiService.com.map2family.cartrack"
+        android:protectionLevel="normal" >
+    </permission> <!-- 小米 -->
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_ADDED" />
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_CHANGED" />
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_INSTALL" />
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_REPLACED" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="com.map2family.cartrack.permission.MIPUSH_RECEIVE" />
+
+    <permission
+        android:name="com.map2family.cartrack.permission.MIPUSH_RECEIVE"
+        android:protectionLevel="signatureOrSystem" /> <!-- 魅族 -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.meizu.flyme.push.permission.RECEIVE" />
+    <uses-permission android:name="com.meizu.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.map2family.cartrack.push.permission.MESSAGE" />
+    <uses-permission android:name="com.map2family.cartrack.permission.C2D_MESSAGE" />
+
+    <permission
+        android:name="com.map2family.cartrack.push.permission.MESSAGE"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="com.map2family.cartrack.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" /> <!-- 华为辅助 SDK -->
+    <!-- 如果是安卓8.0，应用编译配置的targetSdkVersion>=26，请务必添加以下权限 -->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /> <!-- 接收PUSH TOKEN的广播以及PUSH消息需要定义该权限 -->
+    <permission
+        android:name="com.map2family.cartrack.permission.PROCESS_PUSH_MSG"
+        android:protectionLevel="signatureOrSystem" /> <!-- 接收PUSH TOKEN的⼴广播以及PUSH消息需要定义该权限 -->
+    <uses-permission android:name="com.map2family.cartrack.permission.PROCESS_PUSH_MSG" /> <!-- OPPO -->
+    <uses-permission android:name="com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--
+    <uses-permission
+        android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    -->
+    <!-- 华为修改角标需要设置权限 -->
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+    <uses-permission android:name="com.asus.msa.SupplementaryDID.ACCESS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" /> <!-- Barcode(二维码)  begin -->
+    <!--
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    -->
+    <application
+        android:name="io.dcloud.application.DCloudApplication"
+        android:allowBackup="true"
+        android:allowClearUserData="true"
+        android:debuggable="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true" >
+
+        <!-- 微信分享 配置begin -->
+        <!--
+        <meta-data android:name="WX_APPID" android:value="wxc9f9b3e253dc635f">
+        </meta-data>
+        <meta-data android:name="WX_SECRET" android:value="%微信开放平台申请应用的Secret%">
+        </meta-data>
+        <activity
+            android:name="com.map2family.cartrack.wxapi.WXEntryActivity"
+            android:label="@string/app_name"
+            android:exported="true"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="wxc9f9b3e253dc635f"/>
+            </intent-filter>
+        </activity>
+        -->
+        <!-- 微信分享 配置 end -->
+
+
+        <!-- 应用入口 -->
+        <activity
+            android:name="io.dcloud.PandoraEntry"
+            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|fontScale"
+            android:hardwareAccelerated="true"
+            android:theme="@style/TranslucentTheme"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <data android:scheme="hbuilder" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+            <intent-filter>
+                <data android:mimeType="image/*" />
+
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="dcloud_uninview_background"
+            android:value="true" />
+
+        <activity
+            android:name="io.dcloud.PandoraEntryActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|fontScale|keyboard"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTask"
+            android:permission="com.miui.securitycenter.permission.AppPermissionsEditor"
+            android:screenOrientation="user"
+            android:theme="@style/DCloudTheme"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <data android:scheme="h56131bcf" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="io.dcloud.feature.aps.ApsActionService"
+            android:exported="false" /> <!-- 用户自定义服务继承自GTIntentService,作为SDK与APP桥梁服务,用来接收各种消息和命令回复 -->
+        <service android:name="io.dcloud.feature.unipush.GTNormalIntentService" /> <!-- 配置SDK核心服务 -->
+        <service
+            android:name="com.igexin.sdk.PushService"
+            android:exported="true"
+            android:label="NotificationCenter"
+            android:process=":pushservice" >
+            <intent-filter>
+                <action android:name="com.igexin.sdk.action.service.message" />
+            </intent-filter>
+        </service> <!-- 用户自定义服务名 -->
+        <receiver android:name="io.dcloud.feature.unipush.GTNotificationReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="com.map2family.cartrack.__CREATE_NOTIFICATION" />
+                <action android:name="com.map2family.cartrack.__REMOVE_NOTIFICATION" />
+                <action android:name="com.map2family.cartrack.__CLEAR_NOTIFICATION" />
+                <action android:name="com.map2family.cartrack.__CLILK_NOTIFICATION" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.igexin.sdk.PushReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="com.igexin.sdk.action.refreshls" />
+                <!-- 以下三项为可选的action声明，可大大提高service存活率和消息到达速度 -->
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.igexin.sdk.PushActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:process=":pushservice"
+            android:taskAffinity="com.igexin.sdk.PushActivityTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.igexin.sdk.GActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:process=":pushservice"
+            android:taskAffinity="com.igexin.sdk.PushActivityTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- meizu push -->
+        <service
+            android:name="com.meizu.cloud.pushsdk.NotificationService"
+            android:exported="true"
+            android:process=":pushservice" />
+
+        <receiver
+            android:name="com.meizu.cloud.pushsdk.SystemReceiver"
+            android:process=":pushservice" >
+            <intent-filter>
+                <action android:name="com.meizu.cloud.pushservice.action.PUSH_SERVICE_START" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.igexin.sdk.FlymePushReceiver"
+            android:process=":pushservice" >
+            <intent-filter>
+
+                <!-- 接收push消息 -->
+                <action android:name="com.meizu.flyme.push.intent.MESSAGE" />
+                <!-- 接收register消息 -->
+                <action android:name="com.meizu.flyme.push.intent.REGISTER.FEEDBACK" />
+                <!-- 接收unregister消息 -->
+                <action android:name="com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK" />
+                <!-- 兼容低版本Flyme3推送服务配置 -->
+                <action android:name="com.meizu.c2dm.intent.REGISTRATION" />
+                <action android:name="com.meizu.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.map2family.cartrack" />
+            </intent-filter>
+        </receiver> <!-- mipush -->
+        <service
+            android:name="com.xiaomi.mipush.sdk.PushMessageHandler"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":pushservice" />
+        <service
+            android:name="com.xiaomi.mipush.sdk.MessageHandleService"
+            android:enabled="true"
+            android:process=":pushservice" />
+
+        <receiver
+            android:name="com.igexin.sdk.MiuiPushReceiver"
+            android:exported="true"
+            android:process=":pushservice" >
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.MESSAGE_ARRIVED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.ERROR" />
+            </intent-filter>
+        </receiver> <!-- oppopush -->
+        <service
+            android:name="com.igexin.sdk.OppoPushService"
+            android:process=":pushservice" >
+            <intent-filter>
+                <action android:name="com.coloros.mcs.action.RECEIVE_MCS_MESSAGE" />
+            </intent-filter>
+        </service> <!-- hmspush -->
+        <activity
+            android:name="com.huawei.android.hms.agent.common.HMSAgentActivity"
+            android:configChanges="orientation|locale|screenSize|layoutDirection|fontScale"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:process=":pushservice"
+            android:theme="@android:style/Theme.Translucent" >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent" />
+        </activity>
+        <activity
+            android:name="com.huawei.hms.activity.BridgeActivity"
+            android:configChanges="orientation|locale|screenSize|layoutDirection|fontScale"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:process=":pushservice"
+            android:theme="@android:style/Theme.Translucent" >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent" />
+        </activity>
+
+        <provider
+            android:name="com.huawei.hms.update.provider.UpdateProvider"
+            android:authorities="com.map2family.cartrack.hms.update.provider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            android:process=":pushservice" >
+        </provider>
+
+        <receiver
+            android:name="com.igexin.sdk.HmsPushReceiver"
+            android:permission="com.map2family.cartrack.permission.PROCESS_PUSH_MSG"
+            android:process=":pushservice" >
+            <intent-filter>
+
+                <!-- 必须,用于接收token -->
+                <action android:name="com.huawei.android.push.intent.REGISTRATION" />
+                <!-- 必须，用于接收消息 -->
+                <action android:name="com.huawei.android.push.intent.RECEIVE" />
+                <!-- 必须, 用于接收通知栏消息点击事件 此事件不需要开发者处理理，只需注册就可以 -->
+                <action android:name="com.huawei.intent.action.PUSH_DELAY_NOTIFY" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.igexin.sdk.HmsPushSubReceiver"
+            android:process=":pushservice" >
+            <intent-filter>
+
+                <!-- 可选，用于点击通知栏或通知栏上的按钮后触发onEvent回调 -->
+                <action android:name="com.huawei.android.push.intent.CLICK" />
+                <!-- 可选，查看push通道是否连接，不查看则不需要 -->
+                <action android:name="com.huawei.intent.action.PUSH_STATE" />
+            </intent-filter>
+        </receiver> <!-- 接入HMSSDK PUSH模块需要注册该service，不需要开发者处理 -->
+        <service
+            android:name="com.huawei.hms.support.api.push.service.HmsMsgService"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":pushservice" >
+            <intent-filter>
+                <action android:name="com.huawei.push.msg.NOTIFY_MSG" />
+                <action android:name="com.huawei.push.msg.PASSBY_MSG" />
+            </intent-filter>
+        </service> <!-- VIVO辅助 SDK -->
+        <service
+            android:name="com.vivo.push.sdk.service.CommandClientService"
+            android:exported="true"
+            android:process=":pushservice" />
+
+        <activity
+            android:name="com.vivo.push.sdk.LinkProxyClientActivity"
+            android:exported="true"
+            android:process=":pushservice"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <receiver
+            android:name="com.igexin.sdk.VivoPushMessageReceiver"
+            android:process=":pushservice" >
+            <intent-filter> <!-- 接收 push 消息 -->
+                <action android:name="com.vivo.pushclient.action.RECEIVE" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="PUSH_APPID"
+            android:value="iICBzWKOQM7ii5O5w73YJ5" />
+        <meta-data
+            android:name="PUSH_APPKEY"
+            android:value="Q08LBsjCwt6uwR9iQAuW68" />
+        <meta-data
+            android:name="PUSH_APPSECRET"
+            android:value="9UKsnN1sP28EyPa34abs8" />
+
+        <service
+            android:name="io.dcloud.common.adapter.io.MiniServerService"
+            android:exported="false" />
+
+        <receiver android:name="io.dcloud.common.adapter.io.PushReceiver" >
+            <intent-filter>
+                <action android:name="dcloud.push.broswer" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="io.dcloud.imagepick.CustomGalleryActivity"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name="io.dcloud.feature.nativeObj.photoview.PhotoActivity"
+            android:noHistory="false"
+            android:theme="@style/DeviceDefault.Light" />
+        <activity
+            android:name="io.dcloud.appstream.StreamAppMainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:taskAffinity=":list"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+            <intent-filter>
+                <data android:scheme="streamapp" />
+                <data android:scheme="streamappmain" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="io.dcloud.WebAppActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|fontScale"
+            android:hardwareAccelerated="true"
+            android:icon="@drawable/dcloud_recent"
+            android:label="@string/stream_my"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:taskAffinity=":stream"
+            android:theme="@style/DCloudTheme"
+            android:windowSoftInputMode="adjustResize" />
+
+        <service android:name="io.dcloud.streamdownload.DownloadService" >
+            <intent-filter>
+                <action android:name="com.qihoo.life.plugin.streamapp.ACTION_PUSH_TO_PLUGIN" />
+            </intent-filter>
+        </service>
+        <service android:name="io.dcloud.multiprocess.service.MultiProcessService" />
+
+        <activity
+            android:name="io.dcloud.multiprocess.activity.WebAppActivity1"
+            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc"
+            android:hardwareAccelerated="true"
+            android:icon="@drawable/dcloud_recent"
+            android:label="@string/stream_my"
+            android:launchMode="singleTask"
+            android:process="io.dcloud.multiprocess.webapp1"
+            android:screenOrientation="portrait"
+            android:taskAffinity=":webapp1"
+            android:theme="@style/DCloudTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="io.dcloud.appstream.OpenStreamAppTransferActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc"
+            android:screenOrientation="portrait"
+            android:theme="@style/OpenStreamAppTransferActivityTheme"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+        </activity>
+
+        <meta-data
+            android:name="MultiProcessCount"
+            android:value="1" />
+
+        <activity
+            android:name="io.dcloud.ProcessMediator"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="io.dcloud.WebviewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeNoTitleBar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+
+        <receiver android:name="io.dcloud.common.adapter.io.DownloadReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+
+                <data android:scheme="package" /> <!-- HERE! -->
+            </intent-filter>
+        </receiver>
+        <!--
+        <provider
+            android:name="io.dcloud.common.util.DCloud_FileProvider"
+            android:authorities="${apk.applicationId}.dc.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/dcloud_file_provider" />
+        </provider>
+        -->
+        <!--
+            <meta-data
+            android:name="DCLOUD_STREAMAPP_CHANNEL"
+            android:value="io.dcloud.%APPID%|%APPID%|" />
+        -->
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.4" />
+
+        <receiver
+            android:name="com.taobao.weex.WXGlobalEventReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+
+        <service
+            android:name="com.map2family.plugins.frontservice.MyForeGroundService"
+            android:enabled="true"
+            android:exported="true" />
+    </application>
+
+</manifest>
