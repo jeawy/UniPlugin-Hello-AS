@@ -1,0 +1,23 @@
+{
+    "name": "安卓保活插件",
+    "id": "zjw-frontservice",
+    "version": "4.0",
+    "description": "安卓保活插件，确保锁屏、切换后台之后，app不被系统kill掉",
+    "_dp_type": "nativeplugin",
+    "_dp_nativeplugin": {
+        "android": {
+            "plugins": [{
+                "type": "module",
+                "name": "zjw-frontservice",
+                "class": "com.map2family.plugins.frontservice.FrontService_WXModule"
+            }],
+            "integrateType": "aar",
+            "minSdkVersion": 26,
+            "permissions": [
+                "android.permission.FOREGROUND_SERVICE",
+                "android.permission.WAKE_LOCK",
+                "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+            ]
+        }
+    }
+}

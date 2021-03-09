@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.map2family.plugins.frontservice"  >
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+
+    <application >
+
+<service
+    android:name=".MyForeGroundService"
+    android:enabled="true"
+    android:exported="true" />
+</application>
+</manifest>
