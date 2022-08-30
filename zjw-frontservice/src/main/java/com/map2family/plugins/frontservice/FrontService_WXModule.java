@@ -169,6 +169,7 @@ public class FrontService_WXModule extends WXSDKEngine.DestroyableModule {
             String content = options.getString(CONTENT);
             String title = options.getString(TITLE);
             String instant_id = mWXSDKInstance.getInstanceId();
+
             Intent intent = new Intent(mWXSDKInstance.getContext(), MyForeGroundService.class);
             intent.setAction(MyForeGroundService.ACTION_START_FOREGROUND_SERVICE);
             intent.putExtra("title", title);
@@ -178,12 +179,14 @@ public class FrontService_WXModule extends WXSDKEngine.DestroyableModule {
             intent.putExtra("left_btn", options.getString(LEFT_BTN));
             intent.putExtra("instant_id", instant_id);
             intent.putExtra("delaysec", options.getIntValue("delaysec"));
-
+            if (options.containsKey("isIgnoringBattery")){
+                intent.putExtra("isIgnoringBattery", options.getBooleanValue("isIgnoringBattery"));
+            }
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
                 mWXSDKInstance.getContext().startForegroundService( intent );
                 Log.d("startForegroundService", " startForegroundService()");
             } else {
-                mWXSDKInstance.getContext().startService(intent );
+                //mWXSDKInstance.getContext().startService(intent );
                 Log.d("startService", " startService()");
             }
 

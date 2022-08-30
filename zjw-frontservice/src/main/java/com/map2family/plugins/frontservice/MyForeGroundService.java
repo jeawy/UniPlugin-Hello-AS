@@ -93,7 +93,7 @@ public class MyForeGroundService extends Service {
     }
 
 
-    @RequiresApi(api = Build.VERSION_CODES.M)
+
     @Override
     public void onCreate() {
         super.onCreate();
@@ -104,15 +104,7 @@ public class MyForeGroundService extends Service {
         if (! wl.isHeld()) {
             wl.acquire();
         }
-        boolean isIgnoring = isIgnoringBatteryOptimizations();
 
-        if (!isIgnoring){
-            requestIgnoreBatteryOptimizations();
-            Log.d(TAG_FOREGROUND_SERVICE, "not in ");
-        }
-        else{
-            Log.d(TAG_FOREGROUND_SERVICE, "is in ");
-        }
 
         if (handler == null){
             handler = new Handler();
@@ -135,6 +127,7 @@ public class MyForeGroundService extends Service {
         super.onTaskRemoved(rootIntent);
 
     }
+    @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
 
@@ -149,11 +142,23 @@ public class MyForeGroundService extends Service {
             }
 
             delaysec = intent.getIntExtra("delaysec", 2000);
+            boolean isIgnoringBattery = intent.getBooleanExtra("isIgnoringBattery", true);
+
+
 
             switch (action)
             {
                 case ACTION_START_FOREGROUND_SERVICE:
                     startMyForegroundService(big_title, title, content, intent );
+                    boolean isIgnoring = isIgnoringBatteryOptimizations();
+
+                    if (!isIgnoring && isIgnoringBattery){
+                        requestIgnoreBatteryOptimizations();
+                        Log.d(TAG_FOREGROUND_SERVICE, "not in ");
+                    }
+                    else{
+                        Log.d(TAG_FOREGROUND_SERVICE, "is in ");
+                    }
                     //Toast.makeText(getApplicationContext(), "Foreground service is started. 121", Toast.LENGTH_LONG).show();
                     break;
                 case ACTION_STOP_FOREGROUND_SERVICE:
@@ -288,10 +293,15 @@ public class MyForeGroundService extends Service {
 
     }
 
-    private  void actions(  String msg){
-        Map<String,Object> params=new HashMap<>();
-        params.put("key",msg);
-        getInstance().getSDKInstance(instance_id).fireGlobalEventCallback("position", params);
+    private  void actions(  String msg) {
+        Map<String, Object> params = new HashMap<>();
+        params.put("key", msg);
+        if (getInstance().getSDKInstance(instance_id) != null) {
+            getInstance().getSDKInstance(instance_id).fireGlobalEventCallback("position", params);
+        }
+        else{
+            stopForegroundService();
+        }
     }
 
 
@@ -314,6 +324,8 @@ public class MyForeGroundService extends Service {
                wl.release();
            }
        }
+
+        handler.removeCallbacksAndMessages(null);
         super.onDestroy();
     }
 
